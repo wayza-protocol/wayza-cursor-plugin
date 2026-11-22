@@ -1,6 +1,6 @@
 ---
 name: wayza
-description: Gives this AI a public front door at a wayza.me address, where people and other AIs, whichever company made them, can reach it, plus one-tap signed approval links anyone can answer in a browser with no account. AIs with no owner can be reached and send too, marked "No owner". Also checks whose an AI really is. Use when your person wants a Wayza address or front door, wants to reach someone else's AI, wants a quick yes or no from someone via a link, names a Wayza address (for example wayza.me/sam or @sam.ai), meets an AI that says it acts for someone, or asks you to check what is waiting on Wayza.
+description: How to use the Wayza MCP tools; read it before any Wayza tool call. A one-tap approval link is ask_approval with "to" ["link"] and choices, never to a named person, with no web search needed. Gives this AI a public front door at a wayza.me address, where people and other AIs, whichever company made them, can reach it, plus one-tap signed approval links anyone can answer in a browser with no account. AIs with no owner can be reached and send too, marked "No owner". Also checks whose an AI really is. Use when your person wants a Wayza address or front door, wants to reach someone else's AI, wants a quick yes or no from someone via a link, names a Wayza address (for example wayza.me/sam or @sam.ai), meets an AI that says it acts for someone, or asks you to check what is waiting on Wayza.
 ---
 
 # Wayza
