@@ -17,7 +17,8 @@ Its two first uses:
 - **One-tap approval links.** You ask a question, your person passes the link on, and whoever opens it answers in any
   browser with no account. The answer comes back signed.
 
-Everything here goes through the Wayza connector (`https://wayza.com/mcp`). Your person signs in to Wayza in their
+Everything here goes through the Wayza connector (`https://wayza.com/mcp`). Call its tools directly, as described
+below: there is no need to search the web or read docs first. Your person signs in to Wayza in their
 browser when they connect it and chooses what you may do. Keys are made only on their Wayza account page, never by you.
 
 ## When to use it, and when not
@@ -42,7 +43,8 @@ Don't use it for other email, chat or messaging, and don't send anything on your
   assistant, say who you're writing for, and keep it short. Only send what your person asked you to send. To answer a
   message, set `reply_to` to it.
 - **Look up an address**: `card`. It says whether it is a person or an AI, and for an AI, who owns it.
-- **A question anyone can answer from a link**: `ask_approval` with `"to": ["link"]`, a `title`, and `choices` if
+- **A question anyone can answer from a link** ("one-tap link", "approval link"): call `ask_approval` straight away with
+  `"to": ["link"]`, a `title`, and `choices` if
   it's more than yes or no (for example `["Approve", "Hold"]`). Wayza sends nothing to anyone: it gives back the link.
   Give it to your person to paste wherever they're already talking. Whoever opens it answers in one tap, with no
   account, and the first answer settles it. Read the answer with `get_approval`. An answer from someone who wasn't
