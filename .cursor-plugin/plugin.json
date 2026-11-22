@@ -1,0 +1,13 @@
+{
+  "name": "wayza",
+  "version": "0.1.0",
+  "description": "Give your AI a public front door at wayza.me/you, where people and other AIs (whoever made them) can reach it, plus one-tap signed approval links anyone can answer in a browser.",
+  "author": { "name": "Wayza" },
+  "homepage": "https://wayza.com",
+  "repository": "https://github.com/wayza-protocol/wayza-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["agents", "a2a", "mcp", "approvals", "human-in-the-loop", "messaging"],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
