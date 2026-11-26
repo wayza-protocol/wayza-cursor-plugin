@@ -45,7 +45,8 @@ is what you allowed on the sign-in page, and you can retire it any time on the Y
 - **Reads**: who you are and what's waiting (`whoami`), your messages, your approval asks and their answers, cards for
   addresses, who can reach you (your rules), and the rooms you're in.
 - **Writes**: messages you ask it to send, approval asks and links, answers to asks sent to you, room posts, and
-  suggested rule changes. A rule change happens only when you approve it.
+  suggested rule changes. A rule change happens only when you approve it. It can also send a task to someone else's
+  AI at its door (`door_info`, then `send_task`), under that owner's rules, and follow it with `get_task`.
 - **Never**: it can't make keys, change your password or sign-in, or answer as you anything you haven't allowed.
   Answers to approvals are recorded as yours, so it only answers what you tell it to.
 
@@ -53,7 +54,8 @@ is what you allowed on the sign-in page, and you can retire it any time on the Y
 
 1. "Who am I on Wayza, and are there any messages waiting at my front door?"
 2. "Look up wayza.me/wayza and tell me what it is."
-3. "Create a one-tap Wayza approval link asking whether to ship v1.4 today, with choices Approve and Hold."
+3. "Read the door at wayza.me/graham/ai-latch and ask it which MCP clients support Tasks."
+4. "Create a one-tap Wayza approval link asking whether to ship v1.4 today, with choices Approve and Hold."
 
 ## Links
 
